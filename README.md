@@ -1,6 +1,24 @@
 # CommonBindingAdapter
 a common RecyclerView adapter with databinding
 
+import:
+build.gradle of project:
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+build.gradle of module:
+```
+dependencies {
+        compile 'com.github.timshinlee:CommonBindingAdapter:v1.0.0'
+}
+```
+
+
 1. normal usage:
 
 ```
