@@ -1,8 +1,9 @@
 # CommonBindingAdapter
 a common RecyclerView adapter with databinding
 
-import:
-build.gradle of project:
+how to import:
+
+in the build.gradle of project:
 ```
 allprojects {
     repositories {
@@ -11,8 +12,12 @@ allprojects {
     }
 }
 ```
-build.gradle of module:
+
+in the build.gradle of module:(Remember to enable databinding)
 ```
+dataBinding {
+        enabled = true;
+}
 dependencies {
         compile 'com.github.timshinlee:CommonBindingAdapter:1.0.1'
 }
