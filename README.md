@@ -14,7 +14,7 @@ allprojects {
 build.gradle of module:
 ```
 dependencies {
-        compile 'com.github.timshinlee:CommonBindingAdapter:v1.0.0'
+        compile 'com.github.timshinlee:CommonBindingAdapter:1.0.1'
 }
 ```
 
