@@ -15,9 +15,14 @@ allprojects {
 
 in the build.gradle of module: (Remember to enable databinding)
 ```
-dataBinding {
-    enabled = true;
+android {
+    ...
+    
+    dataBinding {
+        enabled = true;
+    }
 }
+
 dependencies {
     compile 'com.github.timshinlee:CommonBindingAdapter:1.0.1'
 }
