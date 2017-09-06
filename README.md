@@ -24,7 +24,7 @@ android {
 }
 
 dependencies {
-    compile 'com.github.timshinlee:CommonBindingAdapter:1.0.1'
+    compile 'com.github.timshinlee:CommonBindingAdapter:1.0.2'
 }
 ```
 
